@@ -27,10 +27,10 @@
 
 .links {
 	position: absolute;
-    top: 47.4%;
-    left: 75%;
+    top: 47.26%;
+    left: 80%;
     transform: translate(-50%, -50%);
-	width: 350px;
+	width: 400px;
 	height: 756px;
 	overflow: hidden;	
 }
@@ -61,6 +61,9 @@ table{
 	border: none;
 	width:100%;
 	height: 100%;
+	border-spacing: 0px;
+	color: white;
+	text-align: center;
 }
 
 ul{vertical-align: top;
@@ -79,4 +82,7 @@ form input[type="text"] {
 	background-color: #2C2C2C;
 	outline: none;
 	color: white;
+}
+td:hover{
+	background-color: black;
 }

@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document */
+
+.crop {
+	object-fit: cover; /* Do not scale the image */
+	object-position: center; /* Center the image within the element */
+	height: 800px;
+	width: 600px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+}
+
+body {
+    background-color: #1B1B1B;
+}
+
+.main{
+	height: 800px;
+	width: 1000px;
+	margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	background-color: #2C2C2C;
+
+}

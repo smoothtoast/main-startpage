@@ -82,7 +82,12 @@ form input[type="text"] {
 	background-color: #2C2C2C;
 	outline: none;
 	color: white;
+	text-align: center;
 }
 td:hover{
 	background-color: black;
+}
+
+tr.theader td {
+	border-bottom: groove solid #FFFFFF;
 }

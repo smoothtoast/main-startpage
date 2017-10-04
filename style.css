@@ -83,13 +83,10 @@ td {
 	height: 50px;
 }
 
-td:hover{
-	background-color: #383838;
+tr.theader td:hover {
+		background-color: #383838;
 }
 
-tr.theader td {
-	border-bottom: groove solid #FFFFFF;
-}
 
 ul{vertical-align: top;
 	vertical-align: text-top;

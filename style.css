@@ -1,6 +1,17 @@
 @charset "utf-8";
 /* CSS Document */
 
+@font-face
+{
+    font-family:'haxrcorp';
+    src: url('haxrcorpttf.ttf');
+}
+
+input {
+	font-family: haxrcorp, monospace;
+	font-size:15px;
+}
+
 .crop {
 	object-fit: cover; 
 	object-position: center; 
